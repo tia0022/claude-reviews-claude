@@ -1,3 +1,5 @@
+> 🌐 **Language**: English | [中文版 →](zh-CN/04-plugin-system.md)
+
 # Plugin System: 44 Files, Full Lifecycle Management
 
 > **Source files**: `utils/plugins/` (44 files, 18,856 lines), `components/ManagePlugins.tsx` (2,089 lines)

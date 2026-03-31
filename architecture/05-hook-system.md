@@ -1,3 +1,5 @@
+> 🌐 **Language**: English | [中文版 →](zh-CN/05-hook-system.md)
+
 # Hook System: 20 Event Types, Full Lifecycle Interception
 
 > **Source files**: `utils/hooks.ts` (5,023 lines), `utils/hooks/` directory, `hooks/` top-level (17,931 lines)

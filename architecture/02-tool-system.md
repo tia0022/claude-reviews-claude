@@ -1,3 +1,5 @@
+> 🌐 **Language**: English | [中文版 →](zh-CN/02-tool-system.md)
+
 # Tool System Architecture: 42 Modules, One Interface
 
 > **Source files**: `Tool.ts` (793 lines — interface definition), `tools.ts` (390 lines — registry), `tools/` (42+ directories)

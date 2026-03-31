@@ -1,3 +1,5 @@
+> 🌐 **Language**: English | [中文版 →](README_CN.md)
+
 # 🪞 Claude Reviews Claude Code
 
 *An AI reading its own source code. Yes, really.*

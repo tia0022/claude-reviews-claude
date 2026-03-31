@@ -1,3 +1,5 @@
+> 🌐 **Language**: English | [中文版 →](zh-CN/03-coordinator.md)
+
 # Multi-Agent Coordinator: How Claude Code Orchestrates Parallel Workers
 
 > **Source files**: `coordinator/coordinatorMode.ts` (370 lines), `tools/AgentTool/` (14 files), `tools/SendMessageTool/`, `tools/TeamCreateTool/`, `tools/TeamDeleteTool/`, `tools/TaskStopTool/`

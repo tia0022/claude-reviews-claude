@@ -1,3 +1,5 @@
+> 🌐 **Language**: English | [中文版 →](zh-CN/01-query-engine.md)
+
 # QueryEngine: The Brain of Claude Code
 
 > **Source files**: `QueryEngine.ts` (1,296 lines), `query.ts` (1,730 lines), `query/` directory
