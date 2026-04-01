@@ -1,4 +1,6 @@
-> 🌐 **语言**: [English →](../03-coordinator.md) | 中文
+﻿> 🌐 **语言**: [English →](../03-coordinator.md) | 中文
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/chapters/03-coordinator)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 
 # 多智能体协调器 (Coordinator)：Claude Code 如何编排并行工作线程
 

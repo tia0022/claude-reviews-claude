@@ -1,6 +1,8 @@
-# 17 — Telemetry, Privacy & Operational Control: The Dark Side of Production
+﻿# 17 — Telemetry, Privacy & Operational Control: The Dark Side of Production
 
 > 🌐 **Language**: English | [中文版 →](zh-CN/17-telemetry-privacy-operations.md)
+> 📖 **[Read Online →](https://openedclaude.github.io/claude-reviews-claude/chapters/17-telemetry-privacy-operations)** — Sidebar nav, dark mode & full-text search. Better than raw GitHub.
+
 
 > **Scope**: `services/analytics/` (9 modules, ~148KB), `utils/undercover.ts`, `utils/attribution.ts`, `utils/commitAttribution.ts`, `utils/fastMode.ts`, `services/remoteManagedSettings/`, `constants/prompts.ts`, `buddy/`, `voice/`, `tasks/DreamTask/`
 >

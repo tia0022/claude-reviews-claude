@@ -1,4 +1,6 @@
-> 🌐 **语言**: [English →](../02-tool-system.md) | 中文
+﻿> 🌐 **语言**: [English →](../02-tool-system.md) | 中文
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/chapters/02-tool-system)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 
 # 工具系统架构：42 个模块，一个接口
 

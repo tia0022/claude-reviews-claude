@@ -1,6 +1,8 @@
-# 17 — 遥测、隐私与运营控制：生产环境的暗面
+﻿# 17 — 遥测、隐私与运营控制：生产环境的暗面
 
 > 🌐 **语言**: [English →](../17-telemetry-privacy-operations.md) | 中文版
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/chapters/17-telemetry-privacy-operations)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 
 > **范围**: `services/analytics/`（9 个模块，~148KB）、`utils/undercover.ts`、`utils/attribution.ts`、`utils/commitAttribution.ts`、`utils/fastMode.ts`、`services/remoteManagedSettings/`、`constants/prompts.ts`、`buddy/`、`voice/`、`tasks/DreamTask/`
 >

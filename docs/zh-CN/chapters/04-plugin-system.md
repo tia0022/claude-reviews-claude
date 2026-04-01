@@ -1,4 +1,6 @@
-> 🌐 **语言**: [English →](../04-plugin-system.md) | 中文
+﻿> 🌐 **语言**: [English →](../04-plugin-system.md) | 中文
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/chapters/04-plugin-system)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 
 # 插件系统：44 个文件，全生命周期管理
 

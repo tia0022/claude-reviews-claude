@@ -1,4 +1,6 @@
-> 🌐 **Language**: English | [中文版 →](zh-CN/03-coordinator.md)
+﻿> 🌐 **Language**: English | [中文版 →](zh-CN/03-coordinator.md)
+> 📖 **[Read Online →](https://openedclaude.github.io/claude-reviews-claude/chapters/03-coordinator)** — Sidebar nav, dark mode & full-text search. Better than raw GitHub.
+
 
 # Multi-Agent Coordinator: How Claude Code Orchestrates Parallel Workers
 

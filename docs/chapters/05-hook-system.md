@@ -1,4 +1,6 @@
-> 🌐 **Language**: English | [中文版 →](zh-CN/05-hook-system.md)
+﻿> 🌐 **Language**: English | [中文版 →](zh-CN/05-hook-system.md)
+> 📖 **[Read Online →](https://openedclaude.github.io/claude-reviews-claude/chapters/05-hook-system)** — Sidebar nav, dark mode & full-text search. Better than raw GitHub.
+
 
 # Hook System: 20 Event Types, Full Lifecycle Interception
 

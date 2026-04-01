@@ -1,6 +1,8 @@
-# 00 — Claude Code 完整架构解析
+﻿# 00 — Claude Code 完整架构解析
 
 > 🌐 **语言**: 中文 | [English →](../00-overview.md)
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/overview)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 
 > **本文档是什么。** 这是 *Claude Code 深度解析* 系列的压轴篇章——一部将 17 篇架构分析浓缩为单一参考手册的微缩百科全书。在深入各章之前用它做地图，或在探索完各章后用它做复习。
 >

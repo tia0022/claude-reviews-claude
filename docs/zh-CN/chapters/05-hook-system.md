@@ -1,4 +1,6 @@
-> 🌐 **语言**: [English →](../05-hook-system.md) | 中文
+﻿> 🌐 **语言**: [English →](../05-hook-system.md) | 中文
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/chapters/05-hook-system)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 
 # 钩子系统 (Hook System)：20 种事件类型，全生命周期拦截
 

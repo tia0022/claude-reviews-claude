@@ -1,5 +1,8 @@
 # 16 — 基础设施与配置：Claude Code 的隐藏骨架
 
+> 🌐 **语言**: 中文 | [English →](../../../chapters/16-infrastructure-config.md)
+> 📖 **[在线阅读 →](https://openedclaude.github.io/claude-reviews-claude/zh-CN/chapters/16-infrastructure-config)** — 支持侧边栏导航、暗色模式与全文搜索，体验更佳。
+
 > **范围**: `bootstrap/state.ts`（56KB）、`entrypoints/init.ts`、`utils/config.ts`、`utils/settings/`、`utils/secureStorage/`、`utils/tokens.ts`、`utils/claudemd.ts`、`utils/signal.ts`、`utils/git/`、`utils/thinking.ts`、`utils/cleanupRegistry.ts`、`utils/startupProfiler.ts`
 >
 > **一句话概括**: 那个不起眼的基础设施层——从 1,759 行的全局状态单例到五层设置合并系统——让所有其他子系统得以运转，同时彻底杜绝循环依赖。
