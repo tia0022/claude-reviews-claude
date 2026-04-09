@@ -1,0 +1,85 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Claude Reviews Claude",
+  "logo": {
+    "dark": "/images/logo.svg",
+    "light": "/images/logo.svg"
+  },
+  "favicon": "/images/favicon.svg",
+  "colors": {
+    "primary": "#D97757",
+    "light": "#E8A87C",
+    "dark": "#C4613B",
+    "anchors": {
+      "from": "#D97757",
+      "to": "#E8A87C"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/tia0022/claude-reviews-claude"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "简体中文",
+    "url": "/zh-CN/overview"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Architecture Deep Dive",
+      "pages": [
+        "chapters/00-overview",
+        "chapters/01-query-engine",
+        "chapters/02-tool-system",
+        "chapters/03-coordinator",
+        "chapters/04-plugin-system",
+        "chapters/05-hook-system",
+        "chapters/06-bash-engine",
+        "chapters/07-permission-pipeline",
+        "chapters/08-agent-swarms",
+        "chapters/09-session-persistence",
+        "chapters/10-context-assembly",
+        "chapters/11-compact-system",
+        "chapters/12-startup-bootstrap",
+        "chapters/13-bridge-system",
+        "chapters/14-ui-state-management",
+        "chapters/14-ui-state-rendering",
+        "chapters/15-services-api-layer",
+        "chapters/16-infrastructure-config",
+        "chapters/17-telemetry-privacy-operations"
+      ]
+    },
+    {
+      "group": "架构深度分析",
+      "pages": [
+        "zh-CN/00-overview",
+        "zh-CN/01-query-engine",
+        "zh-CN/02-tool-system",
+        "zh-CN/03-coordinator",
+        "zh-CN/04-plugin-system",
+        "zh-CN/05-hook-system",
+        "zh-CN/06-bash-engine",
+        "zh-CN/07-permission-pipeline",
+        "zh-CN/08-agent-swarms",
+        "zh-CN/09-session-persistence",
+        "zh-CN/10-context-assembly",
+        "zh-CN/11-compact-system",
+        "zh-CN/12-startup-bootstrap",
+        "zh-CN/13-bridge-system",
+        "zh-CN/14-ui-state-management",
+        "zh-CN/14-ui-state-rendering",
+        "zh-CN/15-services-api-layer",
+        "zh-CN/16-infrastructure-config",
+        "zh-CN/17-telemetry-privacy-operations"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/tia0022/claude-reviews-claude"
+  }
+}

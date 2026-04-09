@@ -1,0 +1,117 @@
+---
+title: "Claude Reviews Claude"
+description: "When AI Reads Its Own Source Code — 17 architecture deep dives written by Claude, dissecting Claude Code v2.1.88"
+---
+
+# Claude Reviews Claude
+
+**When AI Reads Its Own Source Code**
+
+17 architecture deep dives written by Claude, dissecting Claude Code v2.1.88 — 1,902 files, 477,439 lines of TypeScript.
+
+---
+
+## What Is This?
+
+Claude Code is Anthropic's CLI for Claude. This project documents its internal architecture as analyzed by Claude itself — a unique exercise in AI self-reflection at a production engineering level.
+
+The analysis covers every major subsystem, from the core query loop to the terminal UI, written as a series of 17 deep-dive chapters.
+
+---
+
+## Six Architectural Pillars
+
+<CardGroup cols={2}>
+  <Card title="Query Engine" icon="brain" href="/chapters/01-query-engine">
+    The 12-step state machine powering the core `while(true)` tool loop. All intelligence lives in the LLM; the scaffold is intentionally dumb.
+  </Card>
+  <Card title="Tool System" icon="wrench" href="/chapters/02-tool-system">
+    42+ tools as self-contained modules with schema-driven registration, validation, and execution contracts.
+  </Card>
+  <Card title="Permission Pipeline" icon="shield" href="/chapters/07-permission-pipeline">
+    7-layer defense-in-depth — from config rules to AST analysis to OS-level sandboxing.
+  </Card>
+  <Card title="Agent Swarms" icon="network-wired" href="/chapters/08-agent-swarms">
+    Multi-agent coordination with mailbox IPC, backend detection, and permission delegation across parallel threads.
+  </Card>
+  <Card title="Context Assembly" icon="layer-group" href="/chapters/10-context-assembly">
+    3-layer context assembly — system prompts, CLAUDE.md memory, and per-turn attachments within a 200K window.
+  </Card>
+  <Card title="Terminal UI" icon="terminal" href="/chapters/14-ui-state-management">
+    Forked Ink + React 19, Vim mode, IDE bridge — 140+ components powering the CLI experience.
+  </Card>
+</CardGroup>
+
+---
+
+## All 17 Chapters
+
+<CardGroup cols={1}>
+  <Card title="00 — Complete Architecture Overview" href="/chapters/00-overview">
+    The capstone chapter — a micro-encyclopedia distilling all 17 episodes into a single reference.
+  </Card>
+  <Card title="01 — Query Engine" href="/chapters/01-query-engine">
+    Core LLM interaction loop, conversation state management, and the 12-step state machine.
+  </Card>
+  <Card title="02 — Tool System" href="/chapters/02-tool-system">
+    Schema-driven tool registration, execution pipeline, and result injection.
+  </Card>
+  <Card title="03 — Multi-Agent Coordinator" href="/chapters/03-coordinator">
+    Parallel worker orchestration across multiple agent backends.
+  </Card>
+  <Card title="04 — Plugin System" href="/chapters/04-plugin-system">
+    44-file plugin architecture with full lifecycle management.
+  </Card>
+  <Card title="05 — Hook System" href="/chapters/05-hook-system">
+    Event-driven automation firing before and after tool execution.
+  </Card>
+  <Card title="06 — Bash Engine" href="/chapters/06-bash-engine">
+    Shell command execution with sandboxing, timeouts, and streaming output.
+  </Card>
+  <Card title="07 — Permission Pipeline" href="/chapters/07-permission-pipeline">
+    7-layer security architecture from config rules to OS sandboxing.
+  </Card>
+  <Card title="08 — Agent Swarms" href="/chapters/08-agent-swarms">
+    Mailbox IPC, backend detection, and delegation in multi-agent setups.
+  </Card>
+  <Card title="09 — Session Persistence" href="/chapters/09-session-persistence">
+    How conversations are stored, retrieved, and resumed across restarts.
+  </Card>
+  <Card title="10 — Context Assembly" href="/chapters/10-context-assembly">
+    System prompts, CLAUDE.md memory hierarchy, and per-turn attachments.
+  </Card>
+  <Card title="11 — Compact System" href="/chapters/11-compact-system">
+    Multi-tier compression for the 200K token window — triggers and strategies.
+  </Card>
+  <Card title="12 — Startup & Bootstrap" href="/chapters/12-startup-bootstrap">
+    Cold start sequence, environment detection, and config loading order.
+  </Card>
+  <Card title="13 — Bridge System" href="/chapters/13-bridge-system">
+    IDE integration bridge for VS Code and JetBrains communication.
+  </Card>
+  <Card title="14 — UI State Management" href="/chapters/14-ui-state-management">
+    State machines and stores behind the terminal UI — Ink + React 19.
+  </Card>
+  <Card title="14 — UI State Rendering" href="/chapters/14-ui-state-rendering">
+    140+ components, Vim mode, and terminal rendering internals.
+  </Card>
+  <Card title="15 — Services & API Layer" href="/chapters/15-services-api-layer">
+    HTTP client, retry logic, streaming, and Anthropic API integration.
+  </Card>
+  <Card title="16 — Infrastructure & Config" href="/chapters/16-infrastructure-config">
+    Configuration resolution, environment variables, and project settings.
+  </Card>
+  <Card title="17 — Telemetry & Privacy" href="/chapters/17-telemetry-privacy-operations">
+    Analytics pipeline, PII scrubbing, and privacy-preserving telemetry.
+  </Card>
+</CardGroup>
+
+---
+
+## Read in Chinese
+
+All 17 chapters are available in Simplified Chinese. [开始阅读中文版 →](/zh-CN/00-overview)
+
+---
+
+*Analysis by Claude · Code by Anthropic, PBC · MIT License*
