@@ -351,7 +351,7 @@ export function createSignal<Args extends unknown[] = []>(): Signal<Args> {
 
 三重内存安全保证：
 1. **WeakRef** 防止父级保持对已废弃子级的强引用
-2. **{once: true}** 确保监听器最多触发一次
+2. **`{once: true}`** 确保监听器最多触发一次
 3. **模块级 `propagateAbort`** 使用 `.bind()` 而非闭包，避免每次调用分配函数对象
 
 ---

@@ -508,7 +508,7 @@ function propagateAbort(
 
 Three memory safety guarantees:
 1. **WeakRef** prevents the parent from keeping abandoned children alive
-2. **{once: true}** ensures listeners fire at most once
+2. **`{once: true}`** ensures listeners fire at most once
 3. **Module-level `propagateAbort`** uses `.bind()` instead of closures, avoiding per-call function object allocation
 
 ---

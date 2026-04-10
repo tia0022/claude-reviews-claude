@@ -17,9 +17,7 @@ QueryEngine is the central orchestrator of Claude Code's entire lifecycle. It ow
 
 The engine is split into two layers with distinct lifetimes:
 
-<p align="center">
-  <img src="/images/01-query-engine-1.svg" width="600">
-</p>
+![01 Query Engine 1](/images/01-query-engine-1.svg)
 
 | Layer | Lifetime | Responsibility |
 |-------|----------|----------------|
@@ -153,9 +151,7 @@ while (true) {
 
 Before each API call, messages pass through a multi-stage compression pipeline:
 
-<p align="center">
-  <img src="/images/01-query-engine-3.svg" width="280">
-</p>
+![01 Query Engine 3](/images/01-query-engine-3.svg)
 
 | Stage | Purpose | Feature Gate |
 |-------|---------|-------------|
